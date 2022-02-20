@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header  başlangıç */
+.headcontainer{
+    display: block!important;
+    text-align: center;
+}
+.uldiv{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.webajans{
+    width: 450px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* header  bitiş */
+
+
+/* hakkımızda başlangıç */
+.marginTop{
+    margin-top: 0rem!important;
+}
+.imagge{
+    display: none!important;
+}
+/* hakkımızda bitiş */
+
+
+/* hizmetlerimiz başlangıç */
+.hizmetlerimiz1{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* hizmetlerimiz bitiş */
+
+
+/* İşlerimiz başlangıç */
+.mb{
+    margin-bottom: 0rem;
+}
+.pe{
+    margin-right: 1rem;
+}
+.ps{
+    margin-left: 1rem;
+}
+/* İşlerimiz bitiş */
+
+
+/* istatistikler başlangıç */
+
+/* istatistikler bitiş */
+
+
+/* blog başlangıç */
+
+/* blog bitiş */
+
+
+/* footer başlangıç */
+
+/* footer bitiş */
