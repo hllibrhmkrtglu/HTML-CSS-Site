@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header başlangıç */
+.navbar{
+    flex-direction: column;
+}
+.logo{
+    text-align: center;
+}
+ul{
+    justify-content: center;
+    margin-top: 0px;
+    padding:0;
+}
+/* Header bitiş */
+
+
+/* section başlangıç */
+#hamitEfeBilginİmg{
+    width: 250px;
+}
+/* section bitiş */
+
+
+/* egitimsection başlangıç */
+.kutu{
+    flex-direction: column;
+}   
+/* egitimsection bitiş */
+
+
+/* yeteneksection başlangıç */
+.containerYetenek{
+    width:90%!important;
+}
+.containerİmg>img{
+    width: 100px!important;
+}
+
+/* yeteneksection bitiş */
+
+
+/* iletisimfooter başlangıç */
+
+.input{
+    width: 70%!important;
+    margin-bottom: 1rem;
+}
+
+/* iletisimfooter bitiş */

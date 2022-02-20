@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:rgb(245, 239, 239)!important;
+}
+
+h2{
+    text-align: center;
+}
+
+.display{
+    display: block;
+}
+
+.form-group{
+    width: 100%;
+}
+.icon{
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}

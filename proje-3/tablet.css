@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+
+/* header başlangıç */
+.headContainer{
+    flex-direction: column;
+    text-align: center;
+}
+.navbar{
+    justify-content: space-around;
+}
+.logo{
+    font-size: 30px;
+}
+/* header bitiş */
+
+
+/* content başlangıç */
+.ajansText{
+    width: 500px;
+}
+.ajansText>h2{
+    font-size: 30px;
+}
+/* content bitiş */
+
+
+/* hakkımızda başlangıç */
+.hakkimizdaİmg{
+    display:none;
+}
+.hakkimizda{
+    width: 450px!important;
+    margin-left: 20px;
+}
+.hakkimizda>h2{
+    font-size: 40px;
+}
+.uzmanlik{
+    width: 450px;
+}
+.uzmanlik>h2{
+    font-size: 40px;
+    text-align: left;
+}
+/* hakkımızda bitiş */
+
+
+/* hizmetlerimiz başlangıç */
+.hizmetler{
+    flex-direction: column;
+    width:80%;
+}
+.hizmetler1{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hizmetler2{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tasarım{
+    margin-bottom: 1rem;
+    margin-left: 0.5rem!important;
+    margin-right: 0.5rem!important;
+}
+/* hizmetlerimiz bitiş */
+
+
+/* işlerimiz başlangıç */
+.islerimizBoxs{
+    width: 90%;
+}
+/* işlerimiz bitiş */
+
+
+/* şirketAnalizSonuçları başlangıç */
+.sirketAnalizSonucContainer{
+    width: 100%;
+    padding: 3rem 0rem 2rem 0rem;
+    display: flex;
+    margin-top: 5rem;
+    background-color: #F5F5F5;
+}
+.sirketAnaliz{
+    display: flex;
+    width: 80%;
+    font-weight: bolder;
+}
+.analiz{
+    margin-bottom: 2rem!important;
+}
+/* şirketAnalizSonuçları bitiş */
+
+
+/* görüşler başlangıç */
+
+/* görüşler bitiş */
+
+
+/* blog başlangıç */
+
+/* blog bitiş */
+
+
+/* footer başlangıç */
+.iconsBox{
+    flex-direction: column;
+}
+.icon{
+    margin-left: 0rem!important;
+}
+/* footer bitiş */

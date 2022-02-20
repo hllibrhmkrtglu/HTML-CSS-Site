@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 225, 225);
+    color: white;
+}
+
+/* Header başlangıç */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+ul li a:hover{
+    background-color: darkorange;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+/* Header bitiş */
+
+
+/* section başlangıç */
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#hamitEfeBilginİmg{
+    filter: grayscale();
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+h2{
+    font-size: 25px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+p{
+    font-size: 17px;
+    opacity: 0.6;
+}
+.containerİki{
+    text-align: center;
+    color: black;
+}
+.btn{
+    color: white;
+    background-color: darkorange;
+    padding: 15px;
+    width: 15rem;
+    border-color: darkorange;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: #fff;
+    transition: 0.5s;
+}
+/* section bitiş */
+
+
+/* egitimsection başlangıç */
+.egitimContainer{
+    text-align: center;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+}
+.baslikEgitim{
+    padding-top: 1rem;
+}
+.kutu{
+    display: flex;
+    justify-content: space-around;
+}
+/* egitimsection bitiş */
+
+
+/* yeteneksection başlangıç */
+.yetenekBaslik{
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+}
+.containerYetenek{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.containerİmg>img{
+    width: 150px;
+    filter: grayscale();
+}
+.containerİmg>img:hover{
+    filter: none;
+    transition: 0.3s;
+}
+.containerİmg > span{
+    color: black;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+/* yeteneksection bitiş */
+
+/* iletisimfooter başlangıç */
+.footerContainer{
+    padding-top: 1rem;
+    background-color:black;
+    text-align: center;
+}
+.forms >div>*{
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+}
+.input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+/* iletisimfooter bitiş */

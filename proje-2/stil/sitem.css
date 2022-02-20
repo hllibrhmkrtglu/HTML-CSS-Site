@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:rgb(245, 239, 239)!important;
+}
+
+/* header style başlangıç */
+.navbar ul{
+    flex-direction: row;
+}
+
+.display{
+    display: flex;
+}
+
+ul li a:hover{
+    background-color: #f48b21;
+    transition: 0.3s;
+}
+
+/* header style bitiş */
+
+
+/* section style başlangıç */
+#idresim{
+    filter: grayscale();
+}
+
+.btn{
+    width: 15rem;
+    margin-top: 1.25rem;
+    padding: 0.6rem 3rem!important;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.btn-primary{
+    color: white;
+    background-color: #f48b21!important;
+    border: 1px solid #f48b21!important;
+    transition: background-color 0.4s, border 0.4s!important;
+}
+.btn-primary:hover{
+    background-color: #efefef!important;
+    border-color: black!important;
+    color: black!important;
+}
+/* section style bitiş */
+
+/* 2.section Eğitim stil başlangıç */
+.color:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    color: darkorange;
+}
+/* 2.section Eğitim stil  bitiş */
+
+/* 3.section Yetenek stil  bitiş */
+.yetenek img{
+    width:110px;
+    filter: grayscale();
+}
+.yetenek img:hover{
+    transition: 0.3s;
+    filter: none;
+}
+span{
+    font-weight: bold;
+}
+/* 3.section Yetenek stil  bitiş */
+
+
+/* Footer iletişim stil  başlangıç */
+.icon{
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    padding: 5px;
+    color: white;
+}
+.icon:hover{
+    transition: 0.4s;
+    color: gray;
+}
+
+.form-group{
+    width: 50%;
+}
+/* Footer iletişim stil  bitiş */
